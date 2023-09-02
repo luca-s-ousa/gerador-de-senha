@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #132113;
+}
+
+.conteudo_da_pagina {
+  background-color: #327432;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  color: #ffffffd8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.senha_gerada {
+  border: 2px solid #132113;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_gerar_senha_estilo {
+  all: unset;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 25px;
+  height: 40px;
+  width: 100%;
+  background-color: #132113;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn_gerar_senha_estilo:active {
+  background-color: #1c361c;
+  transition: 0.2ms;
+}
